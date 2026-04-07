@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // Import semua widget
 import 'basic_widgets/scaffold_widget.dart';
+import 'basic_widgets/dialog_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-        useMaterial3: false,
-      ),
-      home: const MyScaffold(),
+      home: const MyDialogWidget(),
     );
   }
 }
