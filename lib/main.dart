@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 // Import semua widget
 import 'basic_widgets/scaffold_widget.dart';
 import 'basic_widgets/dialog_widget.dart';
+import 'basic_widgets/input_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const MyDialogWidget(),
+      home: const MyInputWidget(),
     );
   }
 }
